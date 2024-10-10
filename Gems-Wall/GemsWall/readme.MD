@@ -13,7 +13,7 @@ To get started with the bot, follow these steps:
 1. **Install Dependencies and Modules:**
 
    ```
-   npm i; npm i user-agents cloudscraper axios colors p-limit https-proxy-agent socks-proxy-agent
+   npm i user-agents cloudscraper axios colors p-limit https-proxy-agent socks-proxy-agent
    ```
 
 2. **Prepare Configuration Files:**
