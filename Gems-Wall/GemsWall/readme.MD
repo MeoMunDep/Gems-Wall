@@ -6,6 +6,8 @@
 - Group: [Link](t.me/KeoAirDropFreeNe)
 - Channel: [Link](t.me/KeoAirDropFreeNee)
 
+>>> Help me with your referral [Link](https://t.me/GleamRewardsBot/app?startapp=cmM9MjkxMmE1OTA)
+
 ## 🚀 Getting Started
 
 To get started with the bot, follow these steps:
