@@ -1,44 +1,88 @@
-📞 Contact
+# 🚀 Bot Setup Instructions
 
-> If you encounter any issues or have questions, feel free to reach out:
+Welcome to the bot setup guide! Follow the steps below to install and configure the bot correctly. This guide is designed to be beginner-friendly, with clear explanations for each step.
 
-- Contact: [Link](t.me/MeoMunDep)
-- Group: [Link](t.me/KeoAirDropFreeNe)
-- Channel: [Link](t.me/KeoAirDropFreeNee)
+---
 
-> > > Help me with your referral [Link](https://t.me/GleamRewardsBot/app?startapp=cmM9MjkxMmE1OTA)
+## Table of Contents
 
-## 🚀 Getting Started
+1. [Prerequisites](#prerequisites)
+2. [Installation Steps](#installation-steps)
+3. [Configuration Files](#configuration-files)
+   - [`configs.json`](#1-configsjson)
+   - [`datas.txt`](#2-datastxt)
+   - [`wallets.txt`](#3-walletstxt)
+   - [`proxies.txt`](#4-proxiestxt)
+4. [Running the Bot](#running-the-bot)
+5. [Contact and Support](#contact-and-support)
 
-To get started with the bot, follow these steps:
+---
 
-0. **Dowload NodeJS to run the bot**
+## Prerequisites
 
--> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
+Before running the bot, make sure you have the following installed:
 
-1. **Install Dependencies and Modules:**
+- **Node.js** (Version: `22.11.0`)
+- **npm** (Version: `10.9.0`)
 
+Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257/1462).
+
+---
+
+## Installation Steps
+
+1. **Download and Extract the Bot Files:**
+
+   - Extract the bot package into a folder on your computer.
+
+2. **Install Dependencies:**
+   Open your terminal or command prompt, navigate to the folder where the bot files are located, and run:
+
+   ```bash
+   npm install user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ws uuid xlsx readline-sync
    ```
-   npm i user-agents cloudscraper axios colors p-limit https-proxy-agent socks-proxy-agent crypto ws
-   ```
 
-2. **Prepare Configuration Files:**
+3. **Prepare Configuration Files:**
+   - Ensure all configuration files are set up correctly before running the bot (see [Configuration Files](#configuration-files) section).
 
-   > You'll need to set up a few configuration files for the bot to work properly.
+---
 
 ## 📁 Configuration Files
 
-### 1. `configs.json` 📜 - Adjust configuration
+### 1. `configs.json` - 📜 Adjust Bot Settings
+
+This file controls the bot’s behavior. Below is an example configuration:
 
 ```json
 {
-  "limit": 5, //number of accounts run in a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "timeZone": "en-US",
+  "rotateProxy": false,
+  "skipInvalidProxy": false,
+  "proxyRotationInterval": 2,
+  "delayEachAccount": [5, 8],
+  "timeToRestartAllAccounts": 300,
+  "howManyAccountsRunInOneTime": 100,
+  "doTasks": true,
+  "playGames": true,
+  "referralCode": ""
 }
 ```
 
-### 2. `datas.txt` 🗂️ -
+- **Fields Explained:**
+  - `timeZone`: Time zone setting (e.g., "en-US").
+  - `rotateProxy`: Enable or disable proxy rotation.
+  - `skipInvalidProxy`: Skip invalid proxies if `true`.
+  - `proxyRotationInterval`: Time interval (in minutes) for rotating proxies.
+  - `delayEachAccount`: Random delay range (in seconds) between accounts.
+  - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
+  - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
+  - `doTasks`: Enable task completion.
+  - `playGames`: Enable game-playing feature.
+  - `referralCode`: Add your referral code (optional). Do not change it if you want to support me ^^
+
+### 2. `datas.txt` - 🗂️ User Data
+
+Download the `datas.txt` file from [here](https://t.me/KeoAirDropFreeNe/257/6879). This file contains user data in the following format:
 
 ```txt
 query_id.../user...
@@ -46,15 +90,23 @@ query_id.../user...
 query_id.../user...
 ```
 
-### 3. `wallets.txt` 💼 - Cannot update yet.
+_Note: Each row for each account_
 
-```txt - wallet address
+### 3. `wallets.txt` - 💼 Wallet Addresses
+
+Add your wallet addresses in the following format:
+
+```txt
 abc...xyz
 abc...xyz
 abc...xyz
 ```
 
-### 4. `proxies.txt` 🌐 - Proxy is an option. If you have one, fill it in; otherwise, leave it blank.
+_Note: Wallet updates are currently not supported._
+
+### 4. `proxies.txt` - 🌐 Proxy List (Optional)
+
+If you are using proxies, add them here. Leave the file blank if you are not using proxies. Supported formats:
 
 ```txt
 http://user:password@host:port
@@ -63,9 +115,38 @@ socks4://user:password@host:port
 socks5://user:password@host:port
 ```
 
-💡 Usage:
+_Note: each row for each account_
 
-> You need to `cd` to the file after extract it
-> To run the bot, use the following command: `node 1`
+---
 
-🎇Enjoy!
+## 💡 Running the Bot
+
+1. Navigate to the folder containing the bot files:
+
+   ```bash
+   cd /path/to/bot-folder
+   ```
+
+2. Run the bot using the following command:
+   ```bash
+   node bot
+   ```
+
+---
+
+## 💬 Contact and 💸 Support
+
+- **Help me with your referral** [Referral Link](https://t.me/GleamRewardsBot/app?startapp=cmM9MjkxMmE1OTA)
+- **Buy me a telegram account** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
+
+If you encounter any issues or have questions, feel free to reach out:
+
+- **Contact:** [Contact Me](https://t.me/MeoMunDep)
+- **Group:** [Join the Group](https://t.me/KeoAirDropFreeNe)
+- **Channel:** [Visit the Channel](https://t.me/KeoAirDropFreeNee)
+
+Your support is greatly appreciated! 🐱
+
+---
+
+Enjoy using the bot! 🚀
