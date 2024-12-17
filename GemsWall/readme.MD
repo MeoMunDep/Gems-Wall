@@ -47,9 +47,9 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 
 ---
 
-## 📁 Configuration Files
+## Configuration Files
 
-### 1. `configs.json` - 📜 Adjust Bot Settings
+### 1. `configs.json` - Adjust Bot Settings
 
 This file controls the bot’s behavior. Below is an example configuration:
 
@@ -80,7 +80,7 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `playGames`: Enable game-playing feature.
   - `referralCode`: Add your referral code (optional). Do not change it if you want to support me ^^
 
-### 2. `datas.txt` - 🗂️ User Data
+### 2. `datas.txt` - User Data
 
 Download the `datas.txt` file from [here](https://t.me/KeoAirDropFreeNe/257/6879). This file contains user data in the following format:
 
@@ -92,7 +92,7 @@ query_id.../user...
 
 _Note: Each row for each account_
 
-### 3. `wallets.txt` - 💼 Wallet Addresses
+### 3. `wallets.txt` - Wallet Addresses
 
 Add your wallet addresses in the following format:
 
@@ -104,7 +104,7 @@ abc...xyz
 
 _Note: Wallet updates are currently not supported._
 
-### 4. `proxies.txt` - 🌐 Proxy List (Optional)
+### 4. `proxies.txt` - Proxy List (Optional)
 
 If you are using proxies, add them here. Leave the file blank if you are not using proxies. Supported formats:
 
@@ -119,7 +119,7 @@ _Note: each row for each account_
 
 ---
 
-## 💡 Running the Bot
+## Running the Bot
 
 1. Navigate to the folder containing the bot files:
 
@@ -134,7 +134,7 @@ _Note: each row for each account_
 
 ---
 
-## 💬 Contact and 💸 Support
+## Contact and Support
 
 - **Help me with your referral** [Referral Link](https://t.me/GleamRewardsBot/app?startapp=cmM9MjkxMmE1OTA)
 - **Buy me a telegram account** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
