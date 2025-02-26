@@ -3,10 +3,9 @@
   "rotateProxy": false,
   "skipInvalidProxy": false,
   "proxyRotationInterval": 2,
-  "delayEachAccount": [5, 8],
+  "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 10,
   "doTasks": true,
-  "playGames": true,
-  "referralCode": ""
+  "referralCode": "2912a590"
 }

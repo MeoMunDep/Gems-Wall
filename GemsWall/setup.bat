@@ -1,5 +1,5 @@
 @echo off
-title name Bot
+title GemsWall Bot by @MeoMunDep
 color 0A
 
 cd ..
@@ -14,7 +14,7 @@ if exist node_modules (
 :MENU
 cls
 echo =================================================================
-echo    name BOT SETUP AND RUN SCRIPT
+echo    GemsWall BOT SETUP AND RUN SCRIPT by @MeoMunDep
 echo =================================================================
 echo.
 echo Current directory: %CD%
@@ -63,8 +63,7 @@ if not exist configs.json (
     echo   "timeToRestartAllAccounts": 300,>> configs.json
     echo   "howManyAccountsRunInOneTime": 100,>> configs.json
     echo   "doTasks": true,>> configs.json
-    echo   "playGames": true,>> configs.json
-    echo   "referralCode": "">> configs.json
+    echo   "referralCode": "2912a590">> configs.json
     echo }>> configs.json
     echo Created configs.json
 )
