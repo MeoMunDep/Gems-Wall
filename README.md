@@ -3,7 +3,7 @@
 Welcome to the bot setup guide! Follow the steps below to install and configure the bot correctly. This guide is designed to be beginner-friendly, with clear explanations for each step.
 
 ---
-
+> 📱 **For Mobile Users (Termux):** [View the guide here](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux)
 ## Table of Contents
 
 1. [Prerequisites](#prerequisites)
